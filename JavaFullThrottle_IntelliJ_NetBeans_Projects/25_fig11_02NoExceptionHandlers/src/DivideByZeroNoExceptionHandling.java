@@ -13,6 +13,7 @@ public class DivideByZeroNoExceptionHandling {
 
       System.out.print("Please enter an integer numerator: ");
       int numerator = scanner.nextInt();
+
       System.out.print("Please enter an integer denominator: ");
       int denominator = scanner.nextInt();
 

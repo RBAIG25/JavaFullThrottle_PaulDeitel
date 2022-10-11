@@ -36,7 +36,7 @@ public class PassArray {
    public static void modifyArray(int[] array2) {                
       for (int counter = 0; counter < array2.length; counter++) {
          array2[counter] *= 2;                                   
-      }                                                          
+      }                   
    }                                                             
    
    // multiply argument by 2                                  

@@ -26,7 +26,7 @@ public class Account {
 
    // method returns the account balance
    public double getBalance() {
-      return balance; 
+      return this.balance; 
    } 
 
    // method that sets the name

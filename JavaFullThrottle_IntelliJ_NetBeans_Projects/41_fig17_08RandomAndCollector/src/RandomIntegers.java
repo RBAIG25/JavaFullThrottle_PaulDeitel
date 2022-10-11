@@ -10,7 +10,7 @@ public class RandomIntegers {
       // display 10 random integers on separate lines
       System.out.println("Random numbers on separate lines:");
       randomNumbers.ints(10, 1, 7)
-                   .forEach(System.out::println);
+                   .forEach(System.out::println); // System.out.println(element)
 
       // display 10 random integers on the same line
       String numbers = 

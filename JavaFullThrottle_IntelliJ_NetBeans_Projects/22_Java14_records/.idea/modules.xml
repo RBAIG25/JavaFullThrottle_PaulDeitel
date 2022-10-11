@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Java14_pattern_matching_instanceof.iml" filepath="$PROJECT_DIR$/Java14_pattern_matching_instanceof.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/22_Java14_records.iml" filepath="$PROJECT_DIR$/.idea/22_Java14_records.iml" />
     </modules>
   </component>
 </project>

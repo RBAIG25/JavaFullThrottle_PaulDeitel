@@ -9,11 +9,11 @@ public class MethodOverload {
    } 
    
    // square method with int argument                             
-   public static int square(int intValue) {
+   /*public static int square(int intValue) {
       System.out.printf("%nCalled square with int argument: %d%n",
          intValue);                                               
       return intValue * intValue;                                 
-   }
+   }*/
  
    // square method with double argument                             
    public static double square(double doubleValue) {
