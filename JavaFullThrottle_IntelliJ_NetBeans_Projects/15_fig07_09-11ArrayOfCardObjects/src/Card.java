@@ -1,6 +1,5 @@
 // Fig. 7.9: Card.java
 // Card class represents a playing card.
-
 public class Card {
    private final String face; // face of card ("Ace", "Deuce", ...)
    private final String suit; // suit of card ("Hearts", "Diamonds", ...)

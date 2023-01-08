@@ -9,7 +9,7 @@ public class Time2 {
    // Time2 no-argument constructor: 
    // initializes each instance variable to zero  
    public Time2() {                                             
-      this(0, 0, 0); // invoke constructor with three arguments
+      this(0, 0, 0); // invoke constructor with three arguments   
    } 
 
    // Time2 constructor: hour supplied, minute and second defaulted to 0

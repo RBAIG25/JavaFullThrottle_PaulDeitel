@@ -12,8 +12,7 @@ public class StreamFilterMapReduce {
                   .map(x -> x * 3)
                   .sum());      
    } 
-} 
-
+}
 
 /**************************************************************************
  * (C) Copyright 1992-2018 by Deitel & Associates, Inc. and               *
