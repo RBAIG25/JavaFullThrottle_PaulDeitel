@@ -5,9 +5,9 @@ public class Card {
    private final String suit; // suit of card ("Hearts", "Diamonds", ...)
 
    // two-argument constructor initializes card's face and suit
-   public Card(String cardFace, String cardSuit) {
-      this.face = cardFace; // initialize face of card
-      this.suit = cardSuit; // initialize suit of card
+   public Card(String face, String suit) {
+      this.face = face; // initialize face of card
+      this.suit = suit; // initialize suit of card
    } 
 
    // return String representation of 

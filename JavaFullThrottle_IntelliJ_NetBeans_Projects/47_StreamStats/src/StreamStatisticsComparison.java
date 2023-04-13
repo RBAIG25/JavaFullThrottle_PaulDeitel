@@ -12,7 +12,7 @@ public class StreamStatisticsComparison {
       Random random = new Random();
 
       // create array of random long values
-      long[] values = random.longs(50_000_000, 1, 1001).toArray();
+      long[] values = random.longs(100_000_000, 1, 100_000).toArray();
  
       // perform calculations separately
       Instant separateStart = Instant.now();                         

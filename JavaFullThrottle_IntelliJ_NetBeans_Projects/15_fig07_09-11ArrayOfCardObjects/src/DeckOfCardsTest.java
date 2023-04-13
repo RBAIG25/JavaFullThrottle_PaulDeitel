@@ -5,7 +5,7 @@ public class DeckOfCardsTest {
    // execute application
    public static void main(String[] args) {
       DeckOfCards myDeckOfCards = new DeckOfCards();
-      myDeckOfCards.shuffle(); // place Cards in random order
+      //myDeckOfCards.shuffle(); // place Cards in random order
       
       // print all 52 Cards in the order in which they are dealt
       for (int i = 1; i <= 52; i++) {
