@@ -7,7 +7,7 @@ These files are for your personal use and may not be redistributed or reposted.
 
 If you have any questions, open an issue in the Issues tab or email us: deitel at deitel dot com.
 
-Copyright 1992-2022 by Deitel & Associates, Inc, and Pearson Education, Inc. All Rights Reserved. 
+Copyright 1992-2023 by Deitel & Associates, Inc, and Pearson Education, Inc. All Rights Reserved. 
 
 This course is based on content from our book <a href="https://amzn.to/30ZQVw0" target="_blank">Java How to Program, 11/e</a>.
     

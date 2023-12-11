@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="39_StreamStats">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/39_StreamStats.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
