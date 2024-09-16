@@ -13,7 +13,7 @@ public class SalariedEmployee extends Employee {
          throw new IllegalArgumentException(
             "Weekly salary must be >= 0.0");
       }
-
+      
       this.weeklySalary = weeklySalary;
    } 
 
