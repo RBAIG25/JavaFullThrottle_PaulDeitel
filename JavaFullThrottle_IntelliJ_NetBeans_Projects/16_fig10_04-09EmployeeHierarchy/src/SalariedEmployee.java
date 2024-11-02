@@ -6,7 +6,7 @@ public class SalariedEmployee extends Employee {
 
    // constructor
    public SalariedEmployee(String firstName, String lastName, 
-      String socialSecurityNumber, double weeklySalary) {
+      String socialSecurityNumber, double weeklySalary) {     
       super(firstName, lastName, socialSecurityNumber); 
 
       if (weeklySalary < 0.0) {

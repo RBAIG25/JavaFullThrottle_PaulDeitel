@@ -1,6 +1,5 @@
 // Fig. 16.6: Sort1.java
 // Collections method sort.
-import java.util.List;
 import java.util.Arrays;
 import java.util.Collections;
 

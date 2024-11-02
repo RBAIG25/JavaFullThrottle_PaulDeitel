@@ -1,11 +1,9 @@
 // Fig. 2.1: Welcome1.java
 // Text-printing program.
 
-// This "instance main" is automatically placed 
-// in an unnamed class
 void main() {
-   System.out.println("Demonstrating an unnamed class for instance main!");                
-}  
+   System.out.println("Welcome to Java Programming!"); 
+}
 
 
 /**************************************************************************

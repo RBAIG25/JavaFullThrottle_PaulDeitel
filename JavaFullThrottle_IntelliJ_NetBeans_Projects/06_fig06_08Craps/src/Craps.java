@@ -19,22 +19,19 @@ public class Craps {
    // plays one game of craps
    public static void main(String[] args) {
       int myPoint = 0; // point if no win or loss on first roll
-      Status gameStatus; // can contain CONTINUE, WON or LOST
 
       int sumOfDice = rollDice(); // first roll of the dice
 
       // determine game status and point based on first roll 
-      switch (sumOfDice) {
-         case SEVEN, YO_LEVEN -> 
-             gameStatus = Status.WON;
-         case SNAKE_EYES, TREY, BOX_CARS -> 
-             gameStatus = Status.LOST;
+      Status gameStatus = switch (sumOfDice) {
+         case SEVEN, YO_LEVEN -> Status.WON;
+         case SNAKE_EYES, TREY, BOX_CARS -> Status.LOST;
          default -> { // did not win or lose
-             gameStatus = Status.CONTINUE; // game is not over
              myPoint = sumOfDice; // remember the point
              System.out.printf("Point is %d%n", myPoint);
+             yield Status.CONTINUE; // game is not over
          } 
-      }
+      };
 
       // while game is not complete
       while (gameStatus == Status.CONTINUE) { // not WON or LOST

@@ -1,8 +1,6 @@
-
-import java.util.Arrays;
-
 // Fig. 7.3: InitArray.java
 // Initializing the elements of an array with an array initializer.
+import java.util.Arrays;
 
 public class InitArray {
    public static void main(String[] args) {

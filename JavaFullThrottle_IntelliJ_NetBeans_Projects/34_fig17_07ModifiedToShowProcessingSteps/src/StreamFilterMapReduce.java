@@ -18,7 +18,7 @@ public class StreamFilterMapReduce {
                         System.out.println("map: " + x); 
                         return x * 3;
                      })
-                  .sum());      
+                  .sum());           
    } 
 } 
 

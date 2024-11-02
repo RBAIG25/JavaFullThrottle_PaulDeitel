@@ -7,7 +7,7 @@ public class UsingExceptions {
          throwException(); 
       } 
       catch (Exception exception) { // exception thrown by throwException
-         System.out.println("Exception handled in main");
+         System.out.println("Exception handled in main\n");
       } 
 
       doesNotThrowException();

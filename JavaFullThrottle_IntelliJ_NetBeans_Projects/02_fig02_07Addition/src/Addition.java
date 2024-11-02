@@ -5,7 +5,7 @@ import java.util.Scanner; // program uses class Scanner
 public class Addition {
    public static void main(String[] args) {
       // create a Scanner to obtain input from the command window
-      Scanner input = new Scanner(System.in);
+      var input = new Scanner(System.in);
 
       System.out.print("Enter first integer: "); 
       int number1 = input.nextInt(); 
